@@ -1,0 +1,10 @@
+Pyperclip is a cross-platform Python module for copy and paste clipboard functions.
+The pyperclip module has copy() and paste() functions that can send text to and receive text from your computer’s clipboard. 
+Sending the output of your program to the clipboard will make it easy to paste it on an email, word processor, or some other software.
+
+Installing pyperclip:
+
+pip install pyperclip
+
+To copy text to the clipboard, pass a string to pyperclip.copy(). 
+To paste the text from the clipboard, call pyperclip.paste() and the text will be returned as a string value.
